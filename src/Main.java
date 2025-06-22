@@ -1,9 +1,8 @@
-import  helpers.LinePrinter;
+import  lib.Menu;
 
 public class Main {
     public static void main(String[] args) {
-        LinePrinter pr = new LinePrinter();
-
-       pr.titleMenu("PASSWORD LINE");
+        Menu menu = new Menu();
+        menu.menu();
     }
 }
